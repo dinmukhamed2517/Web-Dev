@@ -1,0 +1,14 @@
+body {
+    font-family: cursive;
+}
+.photo-gallery {
+    background: rgb(255, 254, 217);
+    padding: 50px;
+}
+.photo {
+    width: 200px;
+    border:3px ridge;
+    border-color: grey;
+    margin : 40px;
+    padding: 5px;
+}

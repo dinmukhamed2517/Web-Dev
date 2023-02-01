@@ -1,0 +1,14 @@
+.cities{
+    font-size: 2rem;
+}
+.cities img{
+    width:250px;
+    height:150px;
+}
+body{
+    background-color:white;
+}
+h1{
+    margin: 100px 40%;
+}
+
