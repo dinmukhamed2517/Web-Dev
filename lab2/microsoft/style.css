@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    height: 100vh;
+
+}
+.main {
+    background-color: grey;
+}
+#d1{
+    height: 54px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: left;
+    align-items: center;
+}
+#logo{
+    height: 23px;
+}
+.link{
+    margin-top: 20px;
+    padding: 15px;
+    height: 48px;
+    text-decoration: none;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color : rgb(38, 38, 38);
+}
+#btn1{
+    margin-left: 700px;
+    border: 2px dashed;
+    background-color: white;
+    height: 53px;
+}
+#d2 img{
+    height: 590px;
+
+}
+#d2 {
+    display: flex;
+
+}
+
