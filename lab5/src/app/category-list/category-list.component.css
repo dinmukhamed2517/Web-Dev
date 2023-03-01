@@ -1,0 +1,21 @@
+.main{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.category-container{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  border: 1px solid;
+  border-radius: 10px;
+  width: 370px;
+}
+.category-container a{
+  text-decoration: none;
+  color:rgb(0,0,63);
+}
+.category-container h3{
+  text-align: center;
+}

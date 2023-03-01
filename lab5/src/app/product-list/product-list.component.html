@@ -1,0 +1,13 @@
+<div class="all">
+  <div class="main" *ngFor = "let product of products">
+    <h3>
+      <a
+        routerLink="product/{{product.id}}"
+        [title]="product.name"
+      >
+        {{product.name}}
+        <img src="{{product.imageUrl}}" alt="" class = "image-holder">
+      </a>
+    </h3>
+  </div>
+</div>

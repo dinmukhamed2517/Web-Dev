@@ -1,0 +1,25 @@
+.main{
+  width: 500px;
+  height: 500px;
+  border:1px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  border-radius: 10px;
+}
+.image-holder{
+  display: flex;
+  flex-direction: column;
+  width:150px;
+  margin: 10px;
+}
+.main a{
+  text-decoration: none;
+  color:rgb(0,0,63);
+}
+.all{
+  display: flex;
+  flex-direction: column;
+}
