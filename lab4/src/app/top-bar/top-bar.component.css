@@ -1,3 +1,9 @@
 *{
   font-weight: bold;
 }
+.main{
+  display: flex;
+  flex-direction: row;
+}
+
+
