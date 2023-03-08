@@ -1,0 +1,19 @@
+.main{
+  width: 400px;
+  display: flex;
+  flex-direction:column;
+  justify-content: right;
+  align-items: flex-end;
+  align-content: center;
+}
+span{
+  color:crimson;
+}
+.like{
+  width: 40px;
+  color:crimson;
+}
+.like:hover{
+  color:pink;
+}
+

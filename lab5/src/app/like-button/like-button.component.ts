@@ -6,8 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./like-button.component.css']
 })
 export class LikeButtonComponent {
-  isLiked = false;
-  onLike(){
-    this.isLiked =!this.isLiked
+  count:number = 0;
+  increaseNumberOfLikes(){
+    this.count++;
   }
 }

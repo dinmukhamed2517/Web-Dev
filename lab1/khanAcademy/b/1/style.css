@@ -2,9 +2,6 @@ body{
     color:blue;
     background-color:lightblue;
 }
-p{
-    color:black;
-}
-h1{
+p,h1{
     color:black;
 }

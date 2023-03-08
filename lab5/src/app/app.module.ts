@@ -10,7 +10,8 @@ import { ProductListComponent } from './product-list/product-list.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { ProductDescriptionComponent } from './product-description/product-description.component';
 import { LikeButtonComponent } from './like-button/like-button.component';
-import { LikeCountComponent } from './like-count/like-count.component';
+import { CartComponent } from './cart/cart.component';
+import { ShippingComponent } from './shipping/shipping.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,7 +21,8 @@ import { LikeCountComponent } from './like-count/like-count.component';
     HomePageComponent,
     ProductDescriptionComponent,
     LikeButtonComponent,
-    LikeCountComponent,
+    CartComponent,
+    ShippingComponent,
   ],
     imports: [
         BrowserModule,
