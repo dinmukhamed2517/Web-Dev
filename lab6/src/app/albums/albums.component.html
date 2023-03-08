@@ -1,0 +1,22 @@
+<div class="main">
+  <h1> Albums list: </h1>
+  <div class="create">
+    <div class="inputs">
+      <input id = "title" type = "text" placeholder="New Album Title" [(ngModel)]="newAlbum.title">
+      <span id="button-add"(click)="create()" class= "material-icons">add_circle</span>
+    </div>
+  </div>
+  <div class="container">
+    <div class="item" *ngFor = "let album of albums">
+      <a href="" routerLink="{{album.id}}" id= "link">
+        <div class="first">
+          <h3> №{{album.id}}</h3>
+          <p> Title: {{album.title}}</p>
+        </div>
+      </a>
+      <div class="ud">
+        <i id="delete" (click)="delete(album.id)" class ="material-icons">delete</i>
+      </div>
+    </div>
+  </div>
+</div>

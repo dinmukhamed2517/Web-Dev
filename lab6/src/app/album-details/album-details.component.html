@@ -1,0 +1,12 @@
+<div class="main" *ngIf="loaded">
+  <a class ="back-button" routerLink="/albums"><i class = "material-icons">arrow_back</i></a>
+  <div class="content">
+    <h2> Album# {{album.id}}</h2>
+    <h4> Title: {{album.title}}</h4>
+    <input id ="title" name="title" [placeholder]="album.title" [(ngModel)]="newTitle">
+    <i id = "icon1"class = "material-icons" (click)="alterTitle()">draw</i>
+    <a id ="link" routerLink="/albums/{{album.id}}/photos">
+        <i id ="icon2" class="material-icons">image</i>
+    </a>
+  </div>
+</div>

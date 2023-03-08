@@ -1,0 +1,18 @@
+*{
+  margin:0%;
+}
+.main{
+  border:2px solid;
+  display: flex;
+  flex-direction: row;
+  padding:15px;
+  border-radius: 4px;
+}
+.main a{
+  text-decoration: none;
+  color:blue;
+}
+.main i{
+  font-size: 45px;
+  margin:0 25px;
+}
