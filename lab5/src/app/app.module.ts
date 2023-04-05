@@ -10,8 +10,6 @@ import { ProductListComponent } from './product-list/product-list.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { ProductDescriptionComponent } from './product-description/product-description.component';
 import { LikeButtonComponent } from './like-button/like-button.component';
-import { CartComponent } from './cart/cart.component';
-import { ShippingComponent } from './shipping/shipping.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,8 +19,6 @@ import { ShippingComponent } from './shipping/shipping.component';
     HomePageComponent,
     ProductDescriptionComponent,
     LikeButtonComponent,
-    CartComponent,
-    ShippingComponent,
   ],
     imports: [
         BrowserModule,

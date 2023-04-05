@@ -8,7 +8,6 @@ import {Category} from "../models/category";
 })
 export class CategoryListComponent implements OnInit{
   categories: Category[] = [];
-
   ngOnInit(): void {
     this.categories = this.categoryService.getAll();
   }

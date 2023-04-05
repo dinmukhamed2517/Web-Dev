@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { products } from '../products';
-import { DomSanitizer, SafeUrl } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-product-list',
@@ -9,9 +8,6 @@ import { DomSanitizer, SafeUrl } from '@angular/platform-browser';
 })
 export class ProductListComponent {
   products = products;
-  share() {
-    window.alert('The product has been shared!');
-  }
   onNotify(){
     window.alert("You will be notified when the product goes on sale");
   }

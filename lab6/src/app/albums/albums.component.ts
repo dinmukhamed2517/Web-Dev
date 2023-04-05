@@ -8,7 +8,7 @@ import {Album} from "../../modules/albums";
   selector: 'app-albums',
   templateUrl: './albums.component.html',
   styleUrls: ['./albums.component.css']
-})
+})  
 export class AlbumsComponent implements OnInit{
   albums!: Album[];
   newAlbum:Album;
@@ -23,7 +23,6 @@ export class AlbumsComponent implements OnInit{
     });
   }
   create(){
-    console.log("works");
     this.loaded = false;
     this.albumsService.createAlbum(this.newAlbum).subscribe(album =>{
       this.albums.unshift(album);
